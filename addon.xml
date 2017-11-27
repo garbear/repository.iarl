@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.iarl"
+        name="IARL Testing Repository"
+        version="1.0.0"
+        provider-name="Team Kodi">
+    <requires>
+        <import addon="xbmc.addon" version="15.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Kodi game add-on repository (alpha)">
+        <info compressed="false">https://raw.githubusercontent.com/kodi-game/repository.iarl/master/release/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodi-game/repository.iarl/master/release/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/kodi-game/repository.iarl/raw/master/release/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">IARL testing repository</summary>
+        <description lang="en_GB">Repository for testing IARL.</description>
+        <source>https://github.com/kodi-game/repository.iarl</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+        <platform>all</platform>
+    </extension>
+</addon>
